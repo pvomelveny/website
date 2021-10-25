@@ -1,2 +1,2 @@
 # website
-Trying to make a personal 
+Trying to make a personal website.
