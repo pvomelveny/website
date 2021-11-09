@@ -1,3 +1,13 @@
 # website
-Trying to make a personal website.
-585d4e84-dac0-591f-864d-5f58457b88fc
+A website for Patrick O'Melveny
+
+# local dev
+
+## Install npm stuff:
+`npm install`
+
+## Watch changes and run local server
+`npm start`
+
+## Just build
+`npm run build`

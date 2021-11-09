@@ -1,5 +1,12 @@
+public/
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,react,vue,vuejs,purescript
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,react,vue,vuejs,purescript
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
 
 ### Node ###
 # Logs
