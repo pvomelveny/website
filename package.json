@@ -4,8 +4,9 @@
   "description": "Patrick O'Melveny's personal website",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* @11ty/npx eleventy"
   },
   "repository": {
     "type": "git",
