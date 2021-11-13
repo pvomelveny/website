@@ -1,8 +1,8 @@
 .nav {
   line-height: 1;
   font-weight: 900;
-  margin-top: -#{get-size('400')};
-  margin-inline-start: -#{get-size('400')};
+  margin-top: -#{get-size("400")};
+  margin-inline-start: -#{get-size("400")};
   @include set-ff-serif;
 
   &__list {
@@ -10,8 +10,8 @@
     flex-wrap: wrap;
 
     > * {
-      padding-top: get-size('400');
-      padding-inline-start: get-size('400');
+      padding-top: get-size("400");
+      padding-inline-start: get-size("400");
     }
   }
 
@@ -21,10 +21,10 @@
     position: relative;
 
     // Adds the fake border to active state items
-    &[data-state='active'],
-    &[aria-current='page'] {
+    &[data-state="active"],
+    &[aria-current="page"] {
       &:before {
-        content: '';
+        content: "";
         display: block;
         width: 100%;
         height: 0.25rem;
@@ -32,7 +32,7 @@
         top: 100%;
         left: 0;
         margin-top: 0.25rem;
-        background: get-color('quinary-shade');
+        background: get-color("quinary-shade");
       }
     }
   }

@@ -4,8 +4,7 @@
   &__inner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: right;
   }
 
   &__brand {
@@ -22,11 +21,5 @@
 
   &__nav {
     padding: get-size("300") 0;
-  }
-
-  &__brand {
-    svg {
-      width: 160px;
-    }
   }
 }
