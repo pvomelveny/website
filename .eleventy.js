@@ -1,6 +1,10 @@
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("./src/css");
+    // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+    eleventyConfig.setUseGitIgnore(false);
+    // Add Watch Targets
     eleventyConfig.addWatchTarget("./src/css");
+    // Add Passthrough Paths
+    eleventyConfig.addPassthroughCopy("./src/css");
 
     return {
         markdownTemplateEngine: 'njk',

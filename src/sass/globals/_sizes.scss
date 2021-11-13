@@ -1,0 +1,44 @@
+/**
+ * BASE SIZE
+ * All calculations are based on this. It’s recommended that
+ * you keep it at 1rem because that is the root font size. You
+ * can set it to whatever you like and whatever unit you like.
+ */
+$global-base-size: 1rem;
+
+/**
+ * SIZE SCALE
+ * This is a Perfect Fourth scale that powers all the utilities that
+ * it is relevant for (font-size, margin, padding). All items are
+ * calcuated off the base size, so change that and cascade across
+ * your whole project.
+ */
+$global-size-scale: (
+  '300': $global-base-size * 0.75,
+  '400': $global-base-size,
+  '500': $global-base-size * 1.33,
+  '600': $global-base-size * 1.77,
+  '700': $global-base-size * 2.36,
+  '800': $global-base-size * 3.15,
+  '900': $global-base-size * 4.2,
+  'major': $global-base-size * 5.6,
+);
+
+/// GET SIZE FUNCTION
+///
+/// Function tries to match the passed $ratio-key with the $global-size-scale. Returns null
+/// if it can’t find a match.
+///
+/// @param {string} $ratio-key - The size ratio that you want to get
+///
+@function get-size($ratio-key) {
+  $response: map-get($global-size-scale, $ratio-key);
+
+  @if ($response) {
+    @return $response;
+  }
+
+  @warn #{'Size "' + $ratio-key + '" not found in $global-size-scale'};
+
+  @return null;
+}

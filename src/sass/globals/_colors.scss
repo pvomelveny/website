@@ -1,0 +1,47 @@
+$global-colors: (
+    // Website Theme
+    'dark': #383e5b,
+    'dark-shade': #262947,
+    'dark-glare': #505c73,
+    'light': #e3e5f9,
+    'light-shade': #d7f2ff,
+    'light-glare': #f3f6fd,
+    'primary': #7e3aa6,
+    'primary-shade': #7b2e92,
+    'primary-glare': #8c4ac9,
+    'secondary': #c26ab3,
+    'secondary-shade': #a43579,
+    'secondary-glare': #e298d2,
+    'tertiary': #ffaa90,
+    'tertiary-shade': #ffa277,
+    'tertiary-glare': #ffdeaa,
+    'quaternary': #ff7f5c,
+    'quaternary-shade': #f96841,
+    'quaternary-glare': #fe9d76,
+    'quinary': #fa5757,
+    'quinary-shade': #fc3e3e,
+    'quinary-glare': #f26c6c,
+    // Colors we want to refrence fast
+    'myRed': #ff0000,
+    'myOrange': #ff5100,
+);
+
+
+
+/// GET COLOR FUNCTION
+/// Function tries to match the passed $key with the $global-colors map. Returns null
+/// if it can’t find a match.
+///
+/// @param {string} $key - The color that you want to get
+///
+@function get-color($key) {
+  $response: map-get($global-colors, $key);
+
+  @if ($response) {
+    @return $response;
+  }
+
+  @warn #{'Color "' + $key + '" not found in $global-colors'};
+
+  @return null;
+}
