@@ -9,28 +9,28 @@
 /* 
 https://stackoverflow.com/questions/54188805/css-grid-responsive-layout-with-auto-fit-and-minmax-for-even-number-of-items
 */
-
 .axioms {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+
+  &__card {
+    display: flex;
+    min-width: 10rem;
+    width: calc((100% - 1rem * 8 * 2) / 8);
+    height: 10rem;
+    padding: get-size("400");
+    margin: get-size("400");
+    align-items: center;
+    justify-content: center;
+    background: get-color("quaternary");
+    color: get-color("dark");
+  }
 }
 
-.axiom__card {
+.axioms__card > p {
   text-align: left;
-  display: flex;
-  min-width: 10rem;
-  width: calc((100% - 1rem * 8 * 2) / 8);
-  height: 10rem;
-  padding: get-size("400");
-  margin: get-size("400");
-  align-items: center;
-  justify-content: center;
-  background: get-color("quaternary");
-  color: get-color("dark");
-  font-size: get-size("300");
   font-weight: 500;
-  border-radius: get-size("300");
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: get-size("300");
 }
