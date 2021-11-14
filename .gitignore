@@ -1,5 +1,5 @@
 public/
-src/css/
+src/assets/css/
 src/_includes/css
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,react,vue,vuejs,purescript

@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/css");
     // Add Passthrough Paths
     eleventyConfig.addPassthroughCopy("./src/css");
+    eleventyConfig.addPassthroughCopy("./src/assets");
 
     return {
         markdownTemplateEngine: 'njk',
