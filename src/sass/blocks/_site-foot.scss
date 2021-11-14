@@ -1,9 +1,9 @@
 .site-foot {
-  margin-top: get-size('800');
-  padding: get-size('500') 0 get-size('700') 0;
+  margin-top: get-size("800");
+  padding: get-size("500") 0 get-size("700") 0;
   text-align: center;
-  background:get-color('tertiary');
-  color: get-color('light-shade');
+  background: get-color("tertiary");
+  color: get-color("light-shade");
 }
 
 /* 
@@ -17,7 +17,7 @@ https://stackoverflow.com/questions/54188805/css-grid-responsive-layout-with-aut
   justify-content: center;
 }
 
-.axiom {
+.axiom__card {
   text-align: left;
   display: flex;
   min-width: 10rem;
