@@ -4,16 +4,16 @@
   "description": "Patrick O'Melveny's personal website",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "npx sass --watch src/sass:src/css src/sass/critical:src/_includes/css",
-    "build:sass": "npx sass src/sass:src/css src/sass/critical:src/_includes/css",
-    "prod:build:sass": "npx sass src/sass:src/css src/sass/critical:src/_includes/css --style compressed --no-source-map",
+    "watch:sass": "npx sass --watch src/sass:src/assets/css src/sass/critical:src/_includes/css",
+    "build:sass": "npx sass src/sass:src/assets/css src/sass/critical:src/_includes/css",
+    "prod:build:sass": "npx sass src/sass:src/assets/css src/sass/critical:src/_includes/css --style compressed --no-source-map",
     "watch:11ty": "npx @11ty/eleventy --serve",
     "build:11ty": "npx @11ty/eleventy",
     "prod:build:11ty": "npx @11ty/eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
     "prod:build": "npm-run-all clean prod:build:*",
-    "clean": "npx rimraf src/css/* src/_includes/css/* public/*"
+    "clean": "npx rimraf src/assets/css/* src/_includes/css/* public/*"
   },
   "repository": {
     "type": "git",
