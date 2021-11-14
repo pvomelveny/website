@@ -1,6 +1,8 @@
 ---
 title: Patrick O'Melveny
 layout: home
+pageStylesheets:
+    - home.css
 intro:
     name: "Patrick O'Melveny"
     summary: 'mathematician, musician, oft confused'
