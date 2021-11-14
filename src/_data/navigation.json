@@ -5,16 +5,16 @@
             "url": "/"
         },
         {
-            "text": "Writing",
-            "url": "/writing/"
+            "text": "Opera",
+            "url": "/opera/"
         },
         {
-            "text": "Teaching",
-            "url": "/teaching/"
+            "text": "Life",
+            "url": "/life/"
         },
         {
-            "text": "Contact",
-            "url": "/contact/"
+            "text": "CV",
+            "url": "/cv/omelveny-cv.pdf"
         }
     ]
 }

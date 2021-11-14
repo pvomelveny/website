@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
     // Add Passthrough Paths
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addPassthroughCopy("./src/cv");
 
     return {
         markdownTemplateEngine: 'njk',

@@ -5,15 +5,16 @@ pageStylesheets:
     - home.css
 intro:
     name: "Patrick O'Melveny"
-    summary: 'mathematician, musician, oft confused'
-    buttonText: 'CV'
-    buttonUrl: '/work'
+    summary: 'mathematician, musician, teacher, oft confused'
     image: '/assets/img/patrick-picture.jpg'
     imageAlt: 'A moderatly outdated picture of Patrick, as is traditional.'
 ---
 
-# Hello World!!
+# About Me
 
-Do officia minim nulla tempor eu velit magna dolor eiusmod. Voluptate amet dolor in eiusmod reprehenderit dolore mollit commodo occaecat velit exercitation labore tempor deserunt. Duis occaecat cupidatat excepteur ullamco culpa minim laborum duis aliquip id cupidatat ea est. Dolore elit consectetur irure labore nulla sint nisi eu. Reprehenderit incididunt labore consequat mollit excepteur quis excepteur.
+My name is Patrick O'Melveny and my pronouns are (he/him/his).
+I'm currently a second year masters student at San Francisco State University, working on my thesis project under Dusty Ross.
 
-Aliqua esse consectetur ad duis ea esse consequat consectetur excepteur. Est exercitation culpa officia excepteur id eiusmod ut anim. Mollit et dolor mollit cupidatat ullamco tempor. Commodo officia tempor cillum nulla cupidatat nostrud et sit ex aute. Dolore enim consequat amet proident laborum nulla deserunt cillum eiusmod sunt duis do est. Magna qui qui Lorem consectetur exercitation nostrud Lorem incididunt anim laboris ex aliqua. Amet magna aliquip et veniam cillum ut officia adipisicing.
+Aliquam erat volutpat. Morbi at velit ligula. Mauris non scelerisque justo. Cras eget condimentum massa. Fusce rhoncus nisl in aliquam cursus. Curabitur eu interdum magna. Sed ut tristique massa. Nulla id urna felis. Curabitur quam lorem, tincidunt id neque a, auctor eleifend neque. Cras fermentum eget leo nec ullamcorper. Maecenas volutpat tortor tortor, quis tincidunt elit semper feugiat. Praesent porta nulla id odio luctus, a volutpat sapien fringilla. Cras lacinia consequat ligula, quis interdum ipsum.
+
+Ut eu tincidunt nulla. Donec malesuada turpis eget mi lobortis, sit amet pretium odio interdum. Nunc dolor urna, tristique vel pellentesque sit amet, maximus sit amet velit. Morbi accumsan eget massa a maximus. Nunc semper, massa quis rutrum vehicula, lacus lacus dignissim libero, quis ullamcorper risus sem sed mi. Praesent dictum dignissim semper. Sed ipsum felis, pharetra in dolor at, tincidunt blandit augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
