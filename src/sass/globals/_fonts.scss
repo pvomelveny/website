@@ -1,7 +1,7 @@
-$primary-sans-serif: 'Jura';
-$primary-serif: 'Yuji Syuku';
+$primary-sans-serif: "Jura";
+$primary-serif: "Yuji Syuku";
 
-@mixin set-ff-sans-serif($target: $primary-sans-serif) {
+@mixin set-ff-sans($target: $primary-sans-serif) {
     font-family: $primary-sans-serif, sans-serif;
 }
 

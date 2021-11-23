@@ -1,0 +1,34 @@
+@import "globals/globals";
+
+.works {
+    padding-top: get_size("400");
+
+    h1 {
+        font-size: 165%;
+        font-weight: 800;
+    }
+
+    &__field + &__field {
+        padding-top: get_size("700");
+    }
+
+    &__entry {
+        padding-left: get_size("400");
+
+        &--title {
+            max-width: 50ch;
+            font-size: 125%;
+            font-weight: 700;
+            @include set-ff-serif;
+        }
+
+        &--authors {
+            font-size: 85%;
+            font-style: italic;
+            padding-left: get_size("300");
+        }
+    }
+    &__entry + &__entry {
+        padding-top: get_size("300");
+    }
+}
