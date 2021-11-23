@@ -1,0 +1,38 @@
+{
+    "sectionTitle": "Expository Writing",
+    "sectionDescription": "Some work produced for classes.",
+    "items": [
+        {
+            "title": "A Whirlwind Tour of the p-adic Numbers",
+            "url": "/assets/papers/padic_project.pdf",
+            "coauthors": null,
+            "comments": "Written as the capstone project for Math 770: Real Analysis II, at San Francisco State University. A brief introduction to the construction and analytic properties of the p-adic numbers. Though, perhaps through a slightly more algebraic viewpoint than one would expect in an analysis class."
+        },
+        {
+            "title": "The Euler Characteristic on 2-Manifolds",
+            "url": "/assets/papers/Euler_Characteristic_Project.pdf",
+            "comments": "Final project for Math 450: Topology at San Francisco State University. We introduce and prove the simple case of the Euler characteristic on orientable 2-mainfolds; with a short history and motivation vis-à-vis graph theory.",
+            "coauthors": [
+                {
+                    "name": "John Gallagher",
+                    "website": null
+                },
+                {
+                    "name": "Henry Guerrero-Duarte",
+                    "website": null
+                }
+            ]
+        },
+        {
+            "title": "Game Theory Final Project: Rent Negotiation",
+            "url": "/assets/papers/game_theory_paper.pdf",
+            "comments": "The final project for Math 491: Game Theory at San Francisco State University. The project was to come up with real world situation one could model with the techniques of game theory we have learned so far. In the heart of San Francisco during the pandemic, we were inspired by the rare reversal of rents going on around us. It's nice to know even math says it's terrible to be a renter in the Bay Area.",
+            "coauthors": [
+                {
+                    "name": "Montse Cordero",
+                    "website": null
+                }
+            ]
+        }
+    ]
+}

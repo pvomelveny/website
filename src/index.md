@@ -12,9 +12,9 @@ intro:
 
 # About Me
 
-My name is Patrick O'Melveny and my pronouns are (he/him/his).
-I'm currently a second year masters student at San Francisco State University, working on my thesis project under Dusty Ross.
+My name is Patrick O'Melveny, my pronouns are he/him/his.
+I'm currently a second year masters student at San Francisco State University, working on my thesis project under [Dusty Ross](https://sites.google.com/view/rossd).
 
-Aliquam erat volutpat. Morbi at velit ligula. Mauris non scelerisque justo. Cras eget condimentum massa. Fusce rhoncus nisl in aliquam cursus. Curabitur eu interdum magna. Sed ut tristique massa. Nulla id urna felis. Curabitur quam lorem, tincidunt id neque a, auctor eleifend neque. Cras fermentum eget leo nec ullamcorper. Maecenas volutpat tortor tortor, quis tincidunt elit semper feugiat. Praesent porta nulla id odio luctus, a volutpat sapien fringilla. Cras lacinia consequat ligula, quis interdum ipsum.
+I am intersted in Algebraic Geometry, Combinatorics and their intersections.
 
-Ut eu tincidunt nulla. Donec malesuada turpis eget mi lobortis, sit amet pretium odio interdum. Nunc dolor urna, tristique vel pellentesque sit amet, maximus sit amet velit. Morbi accumsan eget massa a maximus. Nunc semper, massa quis rutrum vehicula, lacus lacus dignissim libero, quis ullamcorper risus sem sed mi. Praesent dictum dignissim semper. Sed ipsum felis, pharetra in dolor at, tincidunt blandit augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+I am applying to Ph.D. programms in mathematics for the 2022-2023 academic year. 

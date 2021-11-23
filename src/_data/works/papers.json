@@ -1,0 +1,29 @@
+{
+    "sectionTitle": "Papers",
+    "sectionDescription": "rat",
+    "items": [
+        {
+            "title": "Mixed Volumes of Normal Complexes",
+            "url": null,
+            "citation": null,
+            "comments": "In progress",
+            "coauthors": [
+                {
+                    "name": "Lauren Nowak",
+                    "website": "https://www.laurennowak.com/"
+                },
+                {
+                    "name": "Dusty Ross",
+                    "website": "https://sites.google.com/view/rossd"
+                }
+            ]
+        },
+        {
+            "title": "A Geometric Proof of the Log-Concavity of Characteristic Polynomials of Matroids",
+            "url": null,
+            "citation": null,
+            "comments": "Master's thesis, San Francisco State University. In progress.",
+            "coauthors": null
+        }
+    ]
+}

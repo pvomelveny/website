@@ -42,13 +42,13 @@
 
     &__content {
         grid-row: 4;
-
         h1 {
             display: none;
         }
 
         h1 + p {
-            font-size: 115%;
+            font-size: 105%;
+            
             //max-width: 30ch;
         }
 
