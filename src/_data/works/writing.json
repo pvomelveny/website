@@ -11,7 +11,7 @@
         {
             "title": "The Euler Characteristic on 2-Manifolds",
             "url": "/assets/papers/Euler_Characteristic_Project.pdf",
-            "comments": "Final project for Math 450: Topology at San Francisco State University. We introduce and prove the simple case of the Euler characteristic on orientable 2-mainfolds; with a short history and motivation vis-à-vis graph theory.",
+            "comments": "Final project for Math 450: Topology at San Francisco State University. We introduce and prove the simple case of the Euler characteristic on orientable 2-manifolds; with a short history and motivation vis-à-vis graph theory.",
             "coauthors": [
                 {
                     "name": "John Gallagher",
