@@ -1,4 +1,4 @@
-@import "../blocks/reset";
+@import "reset";
 @import "../globals/globals";
 
 // Import utilities
@@ -21,12 +21,12 @@ body {
   color: get-color("dark-shade");
   line-height: 1.5;
   font-size: get-size("500");
-  @include set-ff-sans-serif;
+  @include set-ff-sans;
 }
 
 a:not([class]) {
   color: currentColor;
-  text-decoration-color: get-color("quinary");
+  text-decoration-color: get-color("tertiary-glare");
 }
 
 :focus {
@@ -43,7 +43,7 @@ h2,
 h3,
 h4 {
   font-weight: 900;
-  @include set-ff-sans-serif;
+  @include set-ff-sans;
 }
 
 // High contrast selection because it can help visually-impaired

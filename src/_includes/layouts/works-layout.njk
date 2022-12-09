@@ -1,0 +1,91 @@
+{% extends "layouts/base.njk" %}
+{% block content %}
+    <div class="[ wrapper ] [ works ]">
+        <div class="papers works__field">
+            <h1 class="papers__header">
+                {{ works.papers.sectionTitle}}
+            </h1>
+            {% for item in works.papers.items %}
+                <article class="[ paper works__entry ]">
+                    <h2 class="[ paper__title works__entry--title ]">
+                        {% if item.url %}
+                            <a href="{{ item.url }}">
+                                {{ item.title }}
+                            </a>
+                        {% else %}
+                            {{ item.title }}
+                        {% endif %}
+                    </h2>
+                    {% if item.coauthors %}
+                        <p class="paper__coauthors works__entry--authors">
+                            with
+                            {% set comma = joiner() %}
+                            {%- for author in item.coauthors -%}
+                                {{ comma() }}
+                                {% if author.website %}
+                                    <a href="{{ author.website }}">
+                                        {{- author.name -}}
+                                    </a>
+                                {%- else -%}
+                                    {{ author.name }}
+                                {%- endif -%}
+                            {%- endfor -%}
+                        </p>
+                    {% endif %}
+                    {% if item.citation %}
+                        <p class="paper__citation">
+                            {{ item.citation }}
+                        </p>
+                    {% endif %}
+
+                    {% if item.comments %}
+                        <p class="paper__comments">
+                            {{ item.comments | safe }}
+                        </p>
+                    {% endif %}
+                </article>
+            {% endfor %}
+        </div>
+        <div class="writings works__field">
+            <h1 class="writings__header">
+                {{ works.writing.sectionTitle }}
+            </h1>
+            {% for item in works.writing.items %}
+                <article class="[ writing works__entry ]">
+                    <h2 class="[ writing__title works__entry--title ]">
+                        {% if item.url %}
+                            <a href="{{ item.url }}">
+                                {{ item.title }}
+                            </a>
+                        {% else %}
+                            {{ item.title }}
+                        {% endif %}
+                    </h2>
+                    {% if item.coauthors %}
+                        <p class="writing__coauthors works__entry--authors">
+                            with
+                            {% set comma = joiner() %}
+                            {%- for author in item.coauthors -%}
+                                {{ comma() }}
+                                {% if author.website %}
+                                    <a href="{{ author.website }}">
+                                        {{- author.name -}}
+                                    </a>
+                                {%- else -%}
+                                    {{ author.name }}
+                                {%- endif -%}
+                            {%- endfor -%}
+                        </p>
+                    {% endif %}
+
+                    {% if item.comments %}
+                        <p class="writing__comments">
+                            {{ item.comments | safe }}
+                        </p>
+                    {% endif %}
+
+                </article>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

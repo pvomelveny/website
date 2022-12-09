@@ -10,7 +10,7 @@
     text-decoration: none;
     text-align: center;
 
-    @include set-ff-sans-serif;
+    @include set-ff-sans;
     font-weight: bold;
     // Make sure hover state trumps all variants with a good ol’ important
     &:hover {

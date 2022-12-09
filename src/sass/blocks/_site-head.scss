@@ -1,22 +1,24 @@
 .site-head {
-  padding: get-size("600") 0;
+  padding: get-size("400") 0;
+  background-color: get-color("light-shade");
 
   &__inner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  &__brand {
+  &__title {
     flex-shrink: 0;
     margin-inline-end: get-size("600"); // Prevents nav bunching up to the logo
 
     // Optical adjustment to account for the offset the sunken 3s create
-    transform: translateY(0.25rem);
+    //transform: translateY(0.25rem);
 
-    svg {
-      width: 100px;
-    }
+    @include set-ff-serif;
+    font-size: get-size("700");
+    font-weight: 600;
   }
 
   &__nav {

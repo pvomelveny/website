@@ -18,12 +18,13 @@
             {% endfor %}
         {% endif %}
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Jura &family=Yuji+Syuku&display=swap');
+            @import url('https://fonts.googleapis.com/css2?Poppins:wght@200;300;700&family=Yuji+Syuku&display=swap');
         </style>
+        <link rel="stylesheet" media="print" href="/assets/css/style.css?{{ assetHash }}" onload="this.media='all'"/>
         {# Add facility for pages to declare an array of stylesheet paths #}
         {% if pageStylesheets %}
             {% for item in pageStylesheets %}
-                <link rel="stylesheet" media="print" href="assets/css/{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
+                <link rel="stylesheet" media="print" href="/assets/css/{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
             {% endfor %}
         {% endif %}
     </head>
@@ -33,12 +34,7 @@
             <main tabindex="-1" id="main-content">
                 {% block content %}{% endblock %}
             </main>
-            <footer role="contentinfo" class="site-foot">
-                <div class="wrapper">
-                    <p>This is a made up agency for the course,
-                            <a href="https://learneleventyfromscratch.com">“Learn Eleventy From Scratch”</a>.</p>
-                </div>
-            </footer>
+            {% include "partials/site-foot.njk" %}
         </div>
     </body>
 </html>
