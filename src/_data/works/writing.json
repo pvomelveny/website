@@ -6,7 +6,7 @@
             "title": "A Whirlwind Tour of the p-adic Numbers",
             "url": "/assets/papers/padic_project.pdf",
             "coauthors": null,
-            "comments": "Written as the capstone project for Math 770: Real Analysis II, at San Francisco State University. A brief introduction to the construction and analytic properties of the p-adic numbers. Though, perhaps through a slightly more algebraic viewpoint than one would expect in an analysis class."
+            "comments": "Written for Math 770: Real Analysis II, at San Francisco State University. A brief introduction to the construction and analytic properties of the p-adic numbers. Though, perhaps through a slightly more algebraic viewpoint than one would expect in an analysis class."
         },
         {
             "title": "The Euler Characteristic on 2-Manifolds",
