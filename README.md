@@ -20,3 +20,10 @@ Could be useful to someone someday.
 ## Prod Build
 TODO: Make this push/sync website??
 `npm run prod:build`
+
+# Getting to AWS
+
+## Copy files
+
+`aws s3 sync ./public/ s3://pvomelveny.com`
+
