@@ -12,10 +12,11 @@ intro:
 
 # About Me
 
-My name is Patrick O'Melveny, my pronouns are he/him/his.
-I'm a second year masters student at San Francisco State University.
+My name is Patrick O'Melveny (he/him).
+I am a master's student at San Francisco State University, currently applying to Ph.D. programs in mathematics for the upcoming 2023 academic year. 
 
-My research under [Dusty Ross](https://sites.google.com/view/rossd) is currently on the log-concavity of the characteristic polynomial of matroids.
-I am interested in Algebraic Geometry, Combinatorics and their intersections.
+My master's thesis under [Dusty Ross](https://sites.google.com/view/rossd) is on a new proof of the log-concavity of characteristic polynomials of matroids.
+I am currently interested in the fields of combinatorics and algebraic geometry.
 
-I will be applying to Ph.D. programs in mathematics for the 2022-2023 academic year. 
+In my past lives, I've been a software engineer and a music teacher.
+I would love opportunities to incorporate either into my pursuits in theoretical math. 
